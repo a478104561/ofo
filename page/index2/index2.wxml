@@ -1,0 +1,11 @@
+<view class='wrapper'>
+  <view class='main_top'>{{mess1}}</view>
+  <view class='pass'>{{pass}}</view>
+  <view class='bot'>
+    <view class='main_bottom'>请使用密码解锁，{{mess2}}秒后开始计费</view>
+    <view class='main_bottom'>{{mess3}}
+      <text class='green' bindtap='first'>{{mess4}}</text>
+    </view>
+  </view>
+  <button></button>
+</view>

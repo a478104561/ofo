@@ -1,0 +1,3 @@
+<view class="wrapper">
+    <map id="map1" longitude="{{longitude}}" latitude="{{latitude}}" scale='{{scale}}' controls='{{controls}}' circles='{{circles}}' show-location='true' bindcontroltap='bindcontroltap'></map>
+</view>

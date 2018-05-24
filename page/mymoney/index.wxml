@@ -1,0 +1,24 @@
+<view class='wrapper'>
+  <view class='top'>
+    <text>我的余额(元)</text>
+    <text>{{money}}</text>
+    <text>余额说明</text>
+  </view>
+  <view class='main'>
+    <button type='primary' bindtap='cong'>充值</button>
+  </view>
+  <view class='foot'>
+    <view bindtap='juan'>
+      <text>我的用车卷</text>
+      <text class='yi'>0张 ></text>
+    </view>
+    <view bindtap='yajin'>
+      <text>我的押金</text>
+      <text class='er'>99元，押金退款 <text class='san'>></text></text>
+    </view>
+  </view>
+  <view class='info' bindtap='info'>
+      <text>关于ofo</text>
+      <text>></text>
+    </view>
+</view>

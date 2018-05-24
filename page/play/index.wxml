@@ -1,0 +1,15 @@
+<view class='wrapper'>
+  <view class='top'>
+    <text>当前单车编号：{{number1}}</text>
+  </view>
+  <view class='main'>
+    <view>{{mess}}</view>
+    <view class='t'>
+      <text>{{hour}}: {{min}}: {{sec}}</text>
+    </view>
+  </view>
+  <view class='btn'>
+    <view class='bl' bindtap='end'>结束骑行</view>
+    <view class='br' bindtap='first'>回到地图</view>
+  </view>
+</view>

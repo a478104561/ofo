@@ -1,0 +1,48 @@
+page{
+  width: 100%;
+  height: 100%;
+}
+.wrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.top{
+  flex-grow: 1;
+  padding: 60rpx 0;  
+  font-size: 30rpx;
+}
+.main{
+  flex-grow: 8;
+  margin-top: 70rpx;
+}
+.main view{
+  font-size: 30rpx;
+  text-align: center;
+}
+.main .t{
+  font-size: 80rpx;
+}
+.btn{
+  flex-grow: 1;
+  width: 100%;  
+}
+.btn view{
+  width: 90%;
+  text-align: center;
+  padding: 10rpx 0;
+  margin: 0 auto;
+  border-radius: 10rpx;
+  font-size: 40rpx;
+  color: white;  
+}
+.btn .bl{
+  background-color: red;
+  margin-bottom: 20rpx;
+}
+.btn .br{
+  background-color: green;
+}

@@ -1,0 +1,13 @@
+<view class='wrapper'>
+  <view class='top'>
+    <block wx:if='{{userinfo.url !== " "}}'>
+      <image src='{{userinfo.url}}'></image>
+    </block>
+    <text>{{userinfo.name}}</text>
+  </view>
+  <view class='main' bindtap='money'>
+    <text>我的钱包</text>
+    <text>></text>
+  </view>
+  <button type='{{type1}}' bindtap='lign' open-type='getUserInfo'>{{lign}}</button>
+</view>

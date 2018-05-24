@@ -1,0 +1,7 @@
+<view class='wrapper'>
+  <text>请输入充值金额</text>
+  <view class='input'>
+    <input bindinput='input'></input>
+  </view>
+  <button bindtap='push'>充值</button>
+</view>

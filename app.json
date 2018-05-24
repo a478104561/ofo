@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "page/index/index",
+    "page/mymoney/index",
+    "page/push/index",
+    "page/userinfo/index",
+    "page/warn/index",
+    
+    "page/index2/index2",
+    "page/play/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#b9dd08",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "ofo假程序",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  }
+}
